@@ -24,8 +24,8 @@ public class Brancos extends AppCompatActivity {
     private int[] imgAlentejoB = {R.drawable.vinhobrancoalentejo1, R.drawable.vinhobrancoalentejo2, R.drawable.vinhobrancoalentejo3};
     private String[] precoBAlentejo = new String[] {"25.00€","81,95€","65,00€"};
     private String[] precoBDouro = new String[]{"34,95€","5,79€","59,95€"};
-    private String[] descBAlentejo = new String[]{"Vinho Tinto/ Alentejo","2019 - Vinho Tinto/ Alentejo","Vinho Tinto/ Alentejo"};
-    private String[] descBDouro = new String[]{"Vinho Tinto/ Douro","Vinho Tinto/ Douro","Vinho Tinto/ Douro"};
+    private String[] descBAlentejo = new String[]{"Vinho Branco/ Alentejo","2019 - Vinho Branco/ Alentejo","Vinho Branco/ Alentejo"};
+    private String[] descBDouro = new String[]{"Vinho Branco/ Douro","Vinho Branco/ Douro","Vinho Branco/ Douro"};
 
     //CRIAR VARIÁVEIS DO TIPO DE ELEMENTOS EXISTENTES NO XML
     private ImageView img1, img2,img3;
