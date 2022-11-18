@@ -27,6 +27,11 @@
                 android:textAlignment="center"
                 android:textSize="16pt" />
 
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"

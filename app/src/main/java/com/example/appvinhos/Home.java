@@ -3,8 +3,11 @@ package com.example.appvinhos;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.sax.StartElementListener;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -14,6 +17,7 @@ public class Home extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        exibirDialogo();
     }
 
     //INCLUIR O MENU NA ACTIVITY
@@ -47,5 +51,25 @@ public class Home extends AppCompatActivity {
             finish();
         }
         return super.onOptionsItemSelected(item);
+    }
+    private void exibirDialogo(){
+        AlertDialog.Builder msgbox = new AlertDialog.Builder(this);
+        msgbox.setTitle("Verificação de idade legal");
+        msgbox.setIcon(android.R.drawable.ic_menu_info_details);
+        msgbox.setMessage("Tem idade legal para consumir bebidas alcólicas?");
+        msgbox.setPositiveButton("YES", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                //Intent in = new Intent(Home.this, Home.class);
+                //startActivity(in);
+            }
+        });
+        msgbox.setNegativeButton("NO", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                finish();
+            }
+        });
+        msgbox.show();
     }
 }
