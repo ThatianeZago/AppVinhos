@@ -8,22 +8,22 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class Espirituosos extends AppCompatActivity {
+public class Whiskys extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_espirituosos);
+        setContentView(R.layout.activity_whiskys);
     }
+
     //INCLUIR O MENU NA ACTIVITY
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menuvinhos,menu);
-        menu.removeItem(R.id.espirituosos);
+        getMenuInflater().inflate(R.menu.menuvinhos, menu);
+        menu.removeItem(R.id.whisky);
         return super.onCreateOptionsMenu(menu);
     }
     //PROGRAMAR CADA BOTÃO DO MENU
-    //EU ESTOU NO ESPIRITUOSO E QUERO IR PARA OUTRA PÁGINA
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
@@ -31,25 +31,26 @@ public class Espirituosos extends AppCompatActivity {
             finish();
         }
         if(id == R.id.btnhome){
-            Intent it = new Intent(Espirituosos.this,Home.class);
-            startActivity(it);
-            finish();
-        }
-        if(id == R.id.brancos){
-            Intent it = new Intent(Espirituosos.this,Brancos.class);
+            Intent it = new Intent(Whiskys.this,Home.class);
             startActivity(it);
             finish();
         }
         if(id == R.id.tintos){
-            Intent it = new Intent(Espirituosos.this,Tintos.class);
+            Intent it = new Intent(Whiskys.this,Tintos.class);
             startActivity(it);
             finish();
         }
-        if(id == R.id.whisky){
-            Intent it = new Intent(Espirituosos.this,Whiskys.class);
+        if(id == R.id.brancos){
+            Intent it = new Intent(Whiskys.this,Brancos.class);
             startActivity(it);
             finish();
         }
+        if(id == R.id.espirituosos){
+            Intent it = new Intent(Whiskys.this,Espirituosos.class);
+            startActivity(it);
+            finish();
+        }
+
         return super.onOptionsItemSelected(item);
     }
 }

@@ -120,6 +120,7 @@ public class Tintos extends AppCompatActivity {
         if(id == R.id.btnsair){
             finish();
         }
+
         if(id == R.id.btnhome){
             Intent it = new Intent(Tintos.this,Home.class);
             startActivity(it);
@@ -135,6 +136,12 @@ public class Tintos extends AppCompatActivity {
             startActivity(it);
             finish();
         }
+        if(id == R.id.whisky){
+            Intent it = new Intent(Tintos.this,Whiskys.class);
+            startActivity(it);
+            finish();
+        }
         return super.onOptionsItemSelected(item);
     }
+
 }

@@ -21,4 +21,7 @@
     <item
         android:id="@+id/espirituosos"
         android:title="@string/btespirituosos" />
+    <item
+        android:id="@+id/whisky"
+        android:title="@string/whisky" />
 </menu>

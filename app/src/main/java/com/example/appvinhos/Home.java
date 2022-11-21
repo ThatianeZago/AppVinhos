@@ -7,7 +7,6 @@ import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.sax.StartElementListener;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -47,6 +46,11 @@ public class Home extends AppCompatActivity {
         }
         if(id == R.id.espirituosos){
             Intent it = new Intent(Home.this,Espirituosos.class);
+            startActivity(it);
+            finish();
+        }
+        if(id == R.id.whisky){
+            Intent it = new Intent(Home.this,Whiskys.class);
             startActivity(it);
             finish();
         }

@@ -8,7 +8,7 @@
 
     <string name="nometintoUM" translatable="false">Trinca Bolotas</string>
     <string name="descricaotintoUM" translatable="false">Vinho tinto 0.75cl</string>
-    <string name="precotintoUM"  translatable="false">6.20€</string>
+    <string name="precotintoUM" translatable="false">6.20€</string>
     <string name="nometintoDOIS" translatable="false">Quinta do Vallado</string>
     <string name="descricaotintoDOIS" translatable="false">Vinho tinto Douro 0.75cl</string>
     <string name="precotintoDOIS" translatable="false">7.20€</string>
@@ -18,7 +18,7 @@
 
     <string name="nomebrancoUM" translatable="false">Quinta dos Crasto</string>
     <string name="descricaobrancoUM" translatable="false">Vinho branco 0.75cl</string>
-    <string name="precobrancoUM"  translatable="false">14.90€</string>
+    <string name="precobrancoUM" translatable="false">14.90€</string>
     <string name="nomebrancoDOIS" translatable="false">Equilibrio Sauvignon</string>
     <string name="descricaobrancoDOIS" translatable="false">Vinho branco 0.75cl</string>
     <string name="precobrancoDOIS" translatable="false">5.55€</string>
@@ -28,13 +28,14 @@
 
     <string name="nomeespiriUM" translatable="false">TEQUILA PATRON GRAN BURDEOS</string>
     <string name="descricaoespiriUM" translatable="false"> Teor de Álcool (%): 40 </string>
-    <string name="precoespiriUM"  translatable="false">761,75€</string>
+    <string name="precoespiriUM" translatable="false">761,75€</string>
     <string name="nomeespiriDOIS" translatable="false">VODKA ABSOLUT RAINBOW EDITION</string>
     <string name="descricaoespiriDOIS" translatable="false"> Teor de Álcool (%): 40 </string>
     <string name="precoespiriDOIS" translatable="false">21,50€</string>
     <string name="nomeespiriTRES" translatable="false">"COGNAC MARTELL L'OR DOME"</string>
     <string name="descricaoespiriTRES" translatable="false"> Teor de Álcool (%): 40 </string>
     <string name="precoespiriTRES" translatable="false">4.475,00€</string>
+    <string name="whisky">Bebidas Whisky</string>
 
 
 </resources>

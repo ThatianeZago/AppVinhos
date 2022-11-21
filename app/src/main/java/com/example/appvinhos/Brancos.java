@@ -125,13 +125,18 @@ public class Brancos extends AppCompatActivity {
             startActivity(it);
             finish();
         }
-        if(id == R.id.brancos){
+        if(id == R.id.tintos){
             Intent it = new Intent(Brancos.this,Tintos.class);
             startActivity(it);
             finish();
         }
         if(id == R.id.espirituosos){
             Intent it = new Intent(Brancos.this,Espirituosos.class);
+            startActivity(it);
+            finish();
+        }
+        if(id == R.id.whisky){
+            Intent it = new Intent(Brancos.this,Whiskys.class);
             startActivity(it);
             finish();
         }
